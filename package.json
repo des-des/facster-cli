@@ -2,10 +2,13 @@
   "name": "facster-cli",
   "version": "0.0.1",
   "description": "cli to help candidates get set up on facster",
-  "main": "index.js",
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@des-des @astroash",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "facster": "facster.js"
+  }
 }
